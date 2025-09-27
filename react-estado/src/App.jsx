@@ -9,8 +9,8 @@ const [count, setCount] =useState (0)
   <h1>Contador de React</h1>
   <h1>{count}</h1>
 
-  <button id="Incrementar" onClick={() => setCount((count) => count + 1)}>Incrementar</button>
-  <button id="Decrementar" onClick={() => setCount((count) => count - 1)}>Decrementar</button>
+  <button id="Incrementar" onClick={() => setCount((count) => count + 1)}>Incrementar🪄</button>
+  <button id="Decrementar" onClick={() => setCount((count) => count - 1)}>Decrementar🪄</button>
     </>
   )
 }
